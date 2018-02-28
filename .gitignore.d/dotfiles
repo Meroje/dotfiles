@@ -1,0 +1,13 @@
+*
+!/.config
+!/.config/mr/config.d/homebrew.git
+!/.config/vcsh
+!/.config/vcsh/hooks-available
+!/.config/vcsh/hooks-available/.gitkeep
+!/.config/vcsh/hooks-available/post-init-add-origin
+!/.config/vcsh/hooks-available/post-init-setup-mr
+!/.config/vcsh/hooks-available/post-merge-unclobber
+!/.config/vcsh/hooks-available/pre-merge-unclobber
+!/.config/vcsh/overlays-available
+!/.config/vcsh/overlays-available/.gitkeep
+!/.mrconfig
