@@ -10,4 +10,7 @@
 !/.config/vcsh/hooks-available/pre-merge-unclobber
 !/.config/vcsh/overlays-available
 !/.config/vcsh/overlays-available/.gitkeep
+!.brew-aliases
+!.brew-aliases/install_no_autoupdate
+!.Brewfile
 !/.mrconfig
