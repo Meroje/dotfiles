@@ -35,3 +35,14 @@ checkout = git clone 'https://github.com/Homebrew/homebrew-php' 'homebrew-php'
 [/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services]
 checkout = git clone 'https://github.com/Homebrew/homebrew-services' 'homebrew-services'
 
+[/usr/local/Homebrew/Library/Taps/jenkins-x/homebrew-jx]
+checkout = git clone 'https://github.com/jenkins-x/homebrew-jx' 'homebrew-jx'
+
+[/usr/local/Homebrew/Library/Taps/kabel/homebrew-php-ext]
+checkout = git clone 'https://github.com/kabel/homebrew-php-ext' 'homebrew-php-ext'
+
+[/usr/local/Homebrew/Library/Taps/koekeishiya/homebrew-formulae]
+checkout = git clone 'https://github.com/koekeishiya/homebrew-formulae' 'homebrew-formulae'
+
+[/usr/local/Homebrew/Library/Taps/railwaycat/homebrew-emacsmacport]
+checkout = git clone 'https://github.com/railwaycat/homebrew-emacsmacport' 'homebrew-emacsmacport'
