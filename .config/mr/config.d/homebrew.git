@@ -1,21 +1,20 @@
-
 [/usr/local/Homebrew/Library/Taps/azure/homebrew-draft]
 checkout = git clone 'https://github.com/azure/homebrew-draft' 'homebrew-draft'
 
 [/usr/local/Homebrew/Library/Taps/buo/homebrew-cask-upgrade]
 checkout = git clone 'https://github.com/buo/homebrew-cask-upgrade' 'homebrew-cask-upgrade'
 
-[/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask]
-checkout = git clone 'https://github.com/caskroom/homebrew-cask' 'homebrew-cask'
+[/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask]
+checkout = git clone 'https://github.com/Homebrew/homebrew-cask' 'homebrew-cask'
 
-[/usr/local/Homebrew/Library/Taps/caskroom/homebrew-drivers]
-checkout = git clone 'https://github.com/caskroom/homebrew-drivers' 'homebrew-drivers'
+[/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-drivers]
+checkout = git clone 'https://github.com/Homebrew/homebrew-cask-drivers' 'homebrew-cask-drivers'
 
-[/usr/local/Homebrew/Library/Taps/caskroom/homebrew-fonts]
-checkout = git clone 'https://github.com/caskroom/homebrew-fonts' 'homebrew-fonts'
+[/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-fonts]
+checkout = git clone 'https://github.com/Homebrew/homebrew-cask-fonts' 'homebrew-cask-fonts'
 
-[/usr/local/Homebrew/Library/Taps/caskroom/homebrew-versions]
-checkout = git clone 'https://github.com/caskroom/homebrew-versions' 'homebrew-versions'
+[/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask-versions]
+checkout = git clone 'https://github.com/Homebrew/homebrew-cask-versions' 'homebrew-cask-versions'
 
 [/usr/local/Homebrew/Library/Taps/crisidev/homebrew-chunkwm]
 checkout = git clone 'https://github.com/crisidev/homebrew-chunkwm' 'homebrew-chunkwm'
