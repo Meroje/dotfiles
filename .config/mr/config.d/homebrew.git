@@ -1,3 +1,6 @@
+[/usr/local/Homebrew]
+checkout = git clone 'https://github.com/Homebrew/brew' 'Homebrew'
+
 [/usr/local/Homebrew/Library/Taps/azure/homebrew-draft]
 checkout = git clone 'https://github.com/azure/homebrew-draft' 'homebrew-draft'
 
@@ -45,3 +48,4 @@ checkout = git clone 'https://github.com/koekeishiya/homebrew-formulae' 'homebre
 
 [/usr/local/Homebrew/Library/Taps/railwaycat/homebrew-emacsmacport]
 checkout = git clone 'https://github.com/railwaycat/homebrew-emacsmacport' 'homebrew-emacsmacport'
+
