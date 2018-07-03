@@ -1,0 +1,4 @@
+[$HOME/.config/vcsh/repo.d/dotfiles.git]
+checkout = vcsh clone git://github.com/Meroje/dotfiles.git dotfiles
+order = 10
+
