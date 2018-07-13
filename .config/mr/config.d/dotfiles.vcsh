@@ -1,4 +1,7 @@
 [$HOME/.config/vcsh/repo.d/dotfiles.git]
 checkout = vcsh clone git://github.com/Meroje/dotfiles.git dotfiles
-order = 10
+order = 1
+
+[$HOME/.config/phoenix]
+checkout = git clone git://github.com/Meroje/phoenix.git phoenix
 
