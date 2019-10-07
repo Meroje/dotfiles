@@ -3,6 +3,11 @@
 !/.brew-aliases
 !/.brew-aliases/install_no_autoupdate
 !/.config
+!/.config/karabiner
+!/.config/karabiner/assets
+!/.config/karabiner/assets/complex_modifications
+!/.config/karabiner/assets/complex_modifications/1511170470.json
+!/.config/karabiner/karabiner.json
 !/.config/mr
 !/.config/mr/config.d
 !/.config/mr/config.d/dotfiles.vcsh
