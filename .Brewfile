@@ -528,7 +528,6 @@ cask "gitify"
 cask "google-chrome"
 cask "google-cloud-sdk"
 cask "google-drive-file-stream"
-cask "gpgtools"
 cask "graphiql"
 cask "graphql-ide"
 cask "gzdoom"
@@ -556,7 +555,6 @@ cask "mysqlworkbench"
 cask "nomad"
 cask "oni"
 cask "pacifist"
-cask "parallels-desktop"
 cask "paw"
 cask "phoenix"
 cask "plexamp"
@@ -571,7 +569,6 @@ cask "qlvideo"
 cask "qmk-toolbox"
 cask "resilio-sync"
 cask "sequel-pro"
-cask "ship"
 cask "shortcat"
 cask "sim-daltonism"
 cask "sketch"
@@ -585,7 +582,6 @@ cask "the-archive-browser"
 cask "the-unarchiver"
 cask "ubersicht"
 cask "usb-overdrive"
-cask "veertu-desktop"
 cask "vimr"
 cask "visual-studio-code"
 cask "watts"
@@ -604,7 +600,6 @@ mas "GIPHY CAPTURE", id: 668208984
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Starry", id: 1281893044
 mas "Textual IRC Client", id: 1262957439
 mas "The Clock", id: 488764545
 mas "Tweetbot", id: 1384080005
