@@ -2056,7 +2056,7 @@
                         "vendor_id": 1452
                     },
                     "ignore": false,
-                    "manipulate_caps_lock_led": false,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": []
                 },
                 {
@@ -2086,7 +2086,7 @@
                     "simple_modifications": []
                 },
                 {
-                    "disable_built_in_keyboard_if_exists": true,
+                    "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
                     "identifiers": {
                         "is_keyboard": true,
@@ -2095,11 +2095,11 @@
                         "vendor_id": 1241
                     },
                     "ignore": false,
-                    "manipulate_caps_lock_led": false,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": []
                 },
                 {
-                    "disable_built_in_keyboard_if_exists": true,
+                    "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
                     "identifiers": {
                         "is_keyboard": true,
@@ -2112,7 +2112,7 @@
                     "simple_modifications": []
                 },
                 {
-                    "disable_built_in_keyboard_if_exists": true,
+                    "disable_built_in_keyboard_if_exists": false,
                     "fn_function_keys": [],
                     "identifiers": {
                         "is_keyboard": false,
@@ -2146,8 +2146,8 @@
                         "product_id": 34304,
                         "vendor_id": 1452
                     },
-                    "ignore": true,
-                    "manipulate_caps_lock_led": false,
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": []
                 },
                 {
@@ -2161,6 +2161,19 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 635,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
                     "simple_modifications": []
                 }
             ],
@@ -2258,7 +2271,7 @@
                         "key_code": "f12"
                     },
                     "to": {
-                        "key_code": "volume_increment"
+                        "key_code": "f12"
                     }
                 }
             ],
@@ -2270,7 +2283,7 @@
             "simple_modifications": [],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
-                "country_code": 0,
+                "country_code": 33,
                 "keyboard_type": "ansi",
                 "mouse_key_xy_scale": 100
             }
