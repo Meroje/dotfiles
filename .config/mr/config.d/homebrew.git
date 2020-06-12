@@ -1,9 +1,6 @@
 [/usr/local/Homebrew]
 checkout = git clone 'https://github.com/Homebrew/brew' 'Homebrew'
 
-[/usr/local/Homebrew/Library/Taps/azure/homebrew-draft]
-checkout = git clone 'https://github.com/azure/homebrew-draft' 'homebrew-draft'
-
 [/usr/local/Homebrew/Library/Taps/buo/homebrew-cask-upgrade]
 checkout = git clone 'https://github.com/buo/homebrew-cask-upgrade' 'homebrew-cask-upgrade'
 
@@ -37,9 +34,6 @@ checkout = git clone 'https://github.com/Homebrew/homebrew-php' 'homebrew-php'
 [/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services]
 checkout = git clone 'https://github.com/Homebrew/homebrew-services' 'homebrew-services'
 
-[/usr/local/Homebrew/Library/Taps/jenkins-x/homebrew-jx]
-checkout = git clone 'https://github.com/jenkins-x/homebrew-jx' 'homebrew-jx'
-
 [/usr/local/Homebrew/Library/Taps/kabel/homebrew-php-ext]
 checkout = git clone 'https://github.com/kabel/homebrew-php-ext' 'homebrew-php-ext'
 
@@ -49,3 +43,5 @@ checkout = git clone 'https://github.com/koekeishiya/homebrew-formulae' 'homebre
 [/usr/local/Homebrew/Library/Taps/railwaycat/homebrew-emacsmacport]
 checkout = git clone 'https://github.com/railwaycat/homebrew-emacsmacport' 'homebrew-emacsmacport'
 
+[/usr/local/Homebrew/Library/Taps/aws/homebrew-tap]
+checkout = git clone 'https://github.com/aws/homebrew-tap' 'homebrew-tap'
