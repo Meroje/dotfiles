@@ -28,9 +28,6 @@ checkout = git clone 'https://github.com/Homebrew/homebrew-bundle' 'homebrew-bun
 [/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core]
 checkout = git clone 'https://github.com/Homebrew/homebrew-core' 'homebrew-core'
 
-[/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services]
-checkout = git clone 'https://github.com/Homebrew/homebrew-services' 'homebrew-services'
-
 [/usr/local/Homebrew/Library/Taps/kabel/homebrew-php-ext]
 checkout = git clone 'https://github.com/kabel/homebrew-php-ext' 'homebrew-php-ext'
 
