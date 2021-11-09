@@ -39,3 +39,90 @@ checkout = git clone 'https://github.com/railwaycat/homebrew-emacsmacport' 'home
 
 [/usr/local/Homebrew/Library/Taps/aws/homebrew-tap]
 checkout = git clone 'https://github.com/aws/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/adoptopenjdk/homebrew-openjdk]
+checkout = git clone 'https://github.com/adoptopenjdk/homebrew-openjdk' 'homebrew-openjdk'
+
+[/usr/local/Homebrew/Library/Taps/aquasecurity/homebrew-trivy]
+checkout = git clone 'https://github.com/aquasecurity/homebrew-trivy' 'homebrew-trivy'
+
+[/usr/local/Homebrew/Library/Taps/bazelbuild/homebrew-tap]
+checkout = git clone 'https://github.com/bazelbuild/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/bflad/homebrew-tap]
+checkout = git clone 'https://github.com/bflad/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/browsh-org/homebrew-browsh]
+checkout = git clone 'https://github.com/browsh-org/homebrew-browsh' 'homebrew-browsh'
+
+[/usr/local/Homebrew/Library/Taps/eugenmayer/homebrew-dockersync]
+checkout = git clone 'https://github.com/eugenmayer/homebrew-dockersync' 'homebrew-dockersync'
+
+[/usr/local/Homebrew/Library/Taps/filippo.io/homebrew-age]
+checkout = git clone 'https://filippo.io/age' 'homebrew-age'
+
+[/usr/local/Homebrew/Library/Taps/flood-io/homebrew-taps]
+checkout = git clone 'https://github.com/flood-io/homebrew-taps' 'homebrew-taps'
+
+[/usr/local/Homebrew/Library/Taps/fluxcd/homebrew-tap]
+checkout = git clone 'https://github.com/fluxcd/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/golangci/homebrew-tap]
+checkout = git clone 'https://github.com/golangci/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/goreleaser/homebrew-tap]
+checkout = git clone 'https://github.com/goreleaser/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/hashicorp/homebrew-tap]
+checkout = git clone 'https://github.com/hashicorp/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/homebrew/homebrew-services]
+checkout = git clone 'https://github.com/Homebrew/homebrew-services' 'homebrew-services'
+
+[/usr/local/Homebrew/Library/Taps/iann0036/homebrew-iamlive]
+checkout = git clone 'https://github.com/iann0036/homebrew-iamlive' 'homebrew-iamlive'
+
+[/usr/local/Homebrew/Library/Taps/instrumenta/homebrew-instrumenta]
+checkout = git clone 'https://github.com/instrumenta/homebrew-instrumenta' 'homebrew-instrumenta'
+
+[/usr/local/Homebrew/Library/Taps/osx-cross/homebrew-arm]
+checkout = git clone 'https://github.com/osx-cross/homebrew-arm' 'homebrew-arm'
+
+[/usr/local/Homebrew/Library/Taps/osx-cross/homebrew-avr]
+checkout = git clone 'https://github.com/osx-cross/homebrew-avr' 'homebrew-avr'
+
+[/usr/local/Homebrew/Library/Taps/px4/homebrew-px4]
+checkout = git clone 'https://github.com/px4/homebrew-px4' 'homebrew-px4'
+
+[/usr/local/Homebrew/Library/Taps/qmk/homebrew-qmk]
+checkout = git clone 'https://github.com/qmk/homebrew-qmk' 'homebrew-qmk'
+
+[/usr/local/Homebrew/Library/Taps/reactiveops/homebrew-tap]
+checkout = git clone 'https://github.com/reactiveops/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/rs/homebrew-tap]
+checkout = git clone 'https://github.com/rs/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/salesforce/homebrew-cloudsplaining]
+checkout = git clone 'https://github.com/salesforce/cloudsplaining' 'homebrew-cloudsplaining'
+
+[/usr/local/Homebrew/Library/Taps/salesforce/homebrew-policy_sentry]
+checkout = git clone 'https://github.com/salesforce/policy_sentry' 'homebrew-policy_sentry'
+
+[/usr/local/Homebrew/Library/Taps/stylemistake/homebrew-formulae]
+checkout = git clone 'https://github.com/stylemistake/homebrew-formulae' 'homebrew-formulae'
+
+[/usr/local/Homebrew/Library/Taps/teamookla/homebrew-speedtest]
+checkout = git clone 'https://github.com/teamookla/homebrew-speedtest' 'homebrew-speedtest'
+
+[/usr/local/Homebrew/Library/Taps/versent/homebrew-taps]
+checkout = git clone 'https://github.com/versent/homebrew-taps' 'homebrew-taps'
+
+[/usr/local/Homebrew/Library/Taps/warrensbox/homebrew-tap]
+checkout = git clone 'https://github.com/warrensbox/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/weaveworks/homebrew-tap]
+checkout = git clone 'https://github.com/weaveworks/homebrew-tap' 'homebrew-tap'
+
+[/usr/local/Homebrew/Library/Taps/xen0l/homebrew-taps]
+checkout = git clone 'https://github.com/xen0l/homebrew-taps' 'homebrew-taps'
