@@ -1,0 +1,65 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: "2022-08-03T08:45:36Z"
+  name: cert-manager
+spec:
+  description: |
+    cert-manager is the easiest way to automatically manage certificates
+    in Kubernetes and OpenShift clusters. The kubectl plugin helps with
+    managing cert-manager resources e.g. manual renewal of Certificates.
+  homepage: https://github.com/cert-manager/cert-manager
+  platforms:
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: 8a5b7b89ddb7ac036ffdb7cef550fa74004ad613d915a42021dfc1ab9b2546ee
+    uri: https://github.com/cert-manager/cert-manager/releases/download/v1.9.0/kubectl-cert_manager-darwin-amd64.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: arm64
+        os: darwin
+    sha256: b717ba3305724cf01fd0d400ce521405180934533ee8793c5ae25cf42ecbf8a9
+    uri: https://github.com/cert-manager/cert-manager/releases/download/v1.9.0/kubectl-cert_manager-darwin-arm64.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: 198fe9a3554a44927b22491942809df2aaf3c16ef8c9a81b1266d4dd96a9a9ab
+    uri: https://github.com/cert-manager/cert-manager/releases/download/v1.9.0/kubectl-cert_manager-linux-amd64.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: arm
+        os: linux
+    sha256: 1369bbf8a6489115d5fa944bfba13d52ab4bf502a440c8c7d6c54633a4e04a66
+    uri: https://github.com/cert-manager/cert-manager/releases/download/v1.9.0/kubectl-cert_manager-linux-arm.tar.gz
+  - bin: kubectl-cert_manager
+    files: null
+    selector:
+      matchLabels:
+        arch: arm64
+        os: linux
+    sha256: 6859b9b5333dd8111735a2b5eae6d5218b0073ffd154d91605746b0a6feb3bf8
+    uri: https://github.com/cert-manager/cert-manager/releases/download/v1.9.0/kubectl-cert_manager-linux-arm64.tar.gz
+  - bin: kubectl-cert_manager.exe
+    files: null
+    selector:
+      matchLabels:
+        arch: amd64
+        os: windows
+    sha256: c3ec067a0c9ca779830c802eb0b30b06186857bc73d8d4493ce18256d49c6a7a
+    uri: https://github.com/cert-manager/cert-manager/releases/download/v1.9.0/kubectl-cert_manager-windows-amd64.zip
+  shortDescription: Manage cert-manager resources inside your cluster
+  version: v1.9.0
+status:
+  source:
+    name: default

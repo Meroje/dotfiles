@@ -1,0 +1,93 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: null
+  name: preflight
+spec:
+  description: |
+    This plugin executes application-specific preflight checks and conformance
+    tests against a cluster, prior to installation of an application.
+
+    Application developers can create and host a Preflight manifest that
+    defines the minimum and desired Kubernetes environment for an application.
+    Before installing the application, a cluster admin can use this plugin to
+    execute the application preflight checksto identify any missing
+    components, configuration or incompatibilities between the cluster and the
+    desired environment.
+
+    When executing Preflight tests, the test results will be displayed in a
+    terminal-based UI on the workstation that executed the command.
+
+    For information on creating a Preflight manifest, view the documentation
+    at https://help.replicated.com/docs/troubleshoot/kubernetes/analysis/
+
+    Usage:
+      $ kubectl preflight <uri/path>
+
+      where <uri/path> references a set of application preflight checks
+
+      For example:
+
+      $ kubectl preflight https://preflight.replicated.com
+
+    For additional options:
+      $ kubectl preflight --help
+
+    Documentation:
+      Full documentation on this plugin is available at:
+      https://help.replicated.com/docs/troubleshoot/kubernetes/preflight/overview/
+
+      For application developers writing collectors and analyzers:
+      https://help.replicated.com/docs/troubleshoot/kubernetes/collectors/defining-collectors/
+  homepage: https://github.com/replicatedhq/troubleshoot
+  platforms:
+  - bin: preflight
+    files:
+    - from: preflight
+      to: .
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: b267c3c4ba3b028a6c1f631f378576d95d8b5c76f51a768531b11a3f5277cad0
+    uri: https://github.com/replicatedhq/troubleshoot/releases/download/v0.31.0/preflight_linux_amd64.tar.gz
+  - bin: preflight
+    files:
+    - from: preflight
+      to: .
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: f98de0df7b1f41bcefe1262fa532bb161c106505e0b311eda162bf4aac9396d1
+    uri: https://github.com/replicatedhq/troubleshoot/releases/download/v0.31.0/preflight_darwin_amd64.tar.gz
+  - bin: preflight
+    files:
+    - from: preflight
+      to: .
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: arm64
+        os: darwin
+    sha256: d3fde52b75f305d4fed58c4d75a6c0b525a44f8853a2107b33631a4e9dfe3273
+    uri: https://github.com/replicatedhq/troubleshoot/releases/download/v0.31.0/preflight_darwin_arm64.tar.gz
+  - bin: preflight.exe
+    files:
+    - from: preflight.exe
+      to: .
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: windows
+    sha256: 9c49a2585fa2d804e7be4b422c71d5fdeb4fe6499a7ecf207bc68ac8c992b503
+    uri: https://github.com/replicatedhq/troubleshoot/releases/download/v0.31.0/preflight_windows_amd64.zip
+  shortDescription: Executes application preflight tests in a cluster
+  version: v0.31.0

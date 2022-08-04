@@ -1,0 +1,57 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: "2022-03-15T11:54:04Z"
+  name: nsenter
+spec:
+  caveats: |
+    * This plugin needs SSH access to nodes
+    * Remote user must have root access
+    * Nodes need to have 'nsenter'
+  description: |
+    This plugin establishes a connection to node that's running the Pod over SSH and uses
+    nsenter to run commands in the container's namespace. You would need something
+    like this to run programs that are missing in the container image but presents on node.
+  homepage: https://github.com/pabateman/kubectl-nsenter
+  platforms:
+  - bin: kubectl-nsenter
+    files:
+    - from: kubectl-nsenter-linux-amd64
+      to: kubectl-nsenter
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: 51707d4fb17e3280ddbb68a3730f5e6e01c1d4d493293adbf8d168306aaf5609
+    uri: https://github.com/pabateman/kubectl-nsenter/releases/download/v0.1.0/kubectl-nsenter-linux-amd64.tar.gz
+  - bin: kubectl-nsenter
+    files:
+    - from: kubectl-nsenter-darwin-amd64
+      to: kubectl-nsenter
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: ee9d1edb25e834310f032669e53a676965a4cb17ced4ea49a4e0c8f484387a65
+    uri: https://github.com/pabateman/kubectl-nsenter/releases/download/v0.1.0/kubectl-nsenter-darwin-amd64.tar.gz
+  - bin: kubectl-nsenter
+    files:
+    - from: kubectl-nsenter-darwin-arm64
+      to: kubectl-nsenter
+    - from: LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: arm64
+        os: darwin
+    sha256: f0a6ec223938d17779b66a186a0b9cd95eccfc21ec27457b4f3ebcd8d7e0159b
+    uri: https://github.com/pabateman/kubectl-nsenter/releases/download/v0.1.0/kubectl-nsenter-darwin-arm64.tar.gz
+  shortDescription: Run shell command in Pod's namespace on the node over SSH connection
+  version: v0.1.0
+status:
+  source:
+    name: default

@@ -1,0 +1,64 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  creationTimestamp: null
+  name: trace
+spec:
+  description: |
+    kubectl trace is a kubectl plugin that allows you to schedule the
+    execution of bpftrace programs in your Kubernetes cluster.
+
+    Examples:
+
+      # Count system calls using tracepoints on a specific node
+      kubectl trace run node/kubernetes-8.myproject.internal \
+        -e 'kprobe:do_sys_open { printf("%s: %s\n", comm, str(arg1)) }'
+
+      # Execute a bpftrace program from file on a specific node
+      kubectl trace run node/kubernetes-8.myproject.internal -f read.bt
+
+      # Run an bpftrace inline program on a pod container
+      kubectl trace run pod/nginx -c nginx \
+        -e "tracepoint:syscalls:sys_enter_* { @[probe] = count(); }"
+      kubectl trace run pod/nginx nginx \
+        -e "tracepoint:syscalls:sys_enter_* { @[probe] = count(); }"
+  homepage: https://github.com/iovisor/kubectl-trace
+  platforms:
+  - bin: kubectl-trace
+    files:
+    - from: ./kubectl-trace
+      to: kubectl-trace
+    - from: ./LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: darwin
+    sha256: 52344e307daccb7aee559268c972bfd5b06de514066647ed6d4205aa0239df40
+    uri: https://github.com/iovisor/kubectl-trace/releases/download/v0.1.0-rc.1/kubectl-trace_0.1.0-rc.1_darwin_amd64.tar.gz
+  - bin: kubectl-trace
+    files:
+    - from: ./kubectl-trace
+      to: kubectl-trace
+    - from: ./LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: linux
+    sha256: cd151705bb5e8964aef5f4f8a6443dcdaef5ea66f5960371404e18b47edd485f
+    uri: https://github.com/iovisor/kubectl-trace/releases/download/v0.1.0-rc.1/kubectl-trace_0.1.0-rc.1_linux_amd64.tar.gz
+  - bin: kubectl-trace.exe
+    files:
+    - from: ./kubectl-trace.exe
+      to: kubectl-trace.exe
+    - from: ./LICENSE
+      to: .
+    selector:
+      matchLabels:
+        arch: amd64
+        os: windows
+    sha256: 0d16f1e00ec990833986d3be4b2997ac48fd036fc3b30834b23eca30ee327853
+    uri: https://github.com/iovisor/kubectl-trace/releases/download/v0.1.0-rc.1/kubectl-trace_0.1.0-rc.1_windows_amd64.zip
+  shortDescription: bpftrace programs in a cluster
+  version: v0.3.4
