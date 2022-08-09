@@ -82,9 +82,6 @@ checkout = git clone 'https://github.com/Homebrew/homebrew-services' 'homebrew-s
 [/usr/local/Homebrew/Library/Taps/iann0036/homebrew-iamlive]
 checkout = git clone 'https://github.com/iann0036/homebrew-iamlive' 'homebrew-iamlive'
 
-[/usr/local/Homebrew/Library/Taps/instrumenta/homebrew-instrumenta]
-checkout = git clone 'https://github.com/instrumenta/homebrew-instrumenta' 'homebrew-instrumenta'
-
 [/usr/local/Homebrew/Library/Taps/osx-cross/homebrew-arm]
 checkout = git clone 'https://github.com/osx-cross/homebrew-arm' 'homebrew-arm'
 
@@ -97,8 +94,8 @@ checkout = git clone 'https://github.com/px4/homebrew-px4' 'homebrew-px4'
 [/usr/local/Homebrew/Library/Taps/qmk/homebrew-qmk]
 checkout = git clone 'https://github.com/qmk/homebrew-qmk' 'homebrew-qmk'
 
-[/usr/local/Homebrew/Library/Taps/reactiveops/homebrew-tap]
-checkout = git clone 'https://github.com/reactiveops/homebrew-tap' 'homebrew-tap'
+[/usr/local/Homebrew/Library/Taps/FairwindsOps/homebrew-tap]
+checkout = git clone 'https://github.com/FairwindsOps/homebrew-tap' 'homebrew-tap'
 
 [/usr/local/Homebrew/Library/Taps/rs/homebrew-tap]
 checkout = git clone 'https://github.com/rs/homebrew-tap' 'homebrew-tap'
