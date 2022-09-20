@@ -30,3 +30,4 @@
 !/.krew/receipts/support-bundle.yaml
 !/.krew/receipts/trace.yaml
 !/.mrconfig
+!/Library/Application Support/MTMR/items.json
