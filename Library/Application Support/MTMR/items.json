@@ -1,10 +1,5 @@
 [
   {
-    "type": "escape",
-    "width": 64,
-    "align": "left"
-  },
-  {
     "type": "dnd",
     "align": "left",
     "width": 38
@@ -12,7 +7,10 @@
   { "type": "brightnessDown", "width": 32, "bordered": false, "align": "left" },
   { "type": "brightnessUp", "width": 32, "bordered": false, "align": "left" },
 
-  // Spotify
+  {
+    "type": "upnext",
+    "maxToShow": 1
+  },
   {
     "type": "appleScriptTitledButton",
     "source": {
@@ -28,13 +26,6 @@
     }
   },
   { "type": "displaySleep", "width": 40, "align": "right", "bordered": false },
-  {
-    "type": "weather",
-    "align": "right",
-    "icon_type": "images",
-    "api_key": "ca93a0bb8cdb428552660d83249e4bc9",
-    "bordered": false
-  },
   {
     "type": "mute",
     "bordered": false,
