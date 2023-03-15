@@ -1,7 +1,7 @@
 apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
-  creationTimestamp: null
+  creationTimestamp: "2022-11-15T18:52:31Z"
   name: sniff
 spec:
   caveats: |
@@ -73,3 +73,6 @@ spec:
     uri: https://github.com/eldadru/ksniff/releases/download/v1.6.2/ksniff.zip
   shortDescription: Start a remote packet capture on pods using tcpdump and wireshark
   version: v1.6.2
+status:
+  source:
+    name: default
