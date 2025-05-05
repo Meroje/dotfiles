@@ -1,7 +1,7 @@
 apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
-  creationTimestamp: null
+  creationTimestamp: "2023-04-20T15:37:22Z"
   name: get-all
 spec:
   description: |2
@@ -66,3 +66,6 @@ spec:
     uri: https://github.com/corneliusweig/ketall/releases/download/v1.3.8/get-all-amd64-windows.zip
   shortDescription: Like `kubectl get all` but _really_ everything
   version: v1.3.8
+status:
+  source:
+    name: default
